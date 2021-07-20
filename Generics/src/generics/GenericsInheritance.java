@@ -16,15 +16,19 @@ public class GenericsInheritance {
 		List<Integer>numbers = new ArrayList<>();
 		numbers.add(1);
 		numbers.add(2);
-	//	printList(numbers); will not work
+		printList(numbers); // will not work if not wildcard ?
+		
+		List<?> temp=names;
+		temp=numbers;
 		
 	}
 
 //	private static void printList(List names) {
-	private static void printList(List<String> names) {
+	private static void printList(List<?> names) {
 
-
+			Object o =names.get(1);
 			names.forEach(System.out::println);
+		//	names.add("foo"); restricted ?
 	}
 	
 	
