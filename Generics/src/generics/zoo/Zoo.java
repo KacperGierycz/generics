@@ -14,6 +14,10 @@ public class Zoo {
 			Cage<Lion> lionCage= new Cage();
 			lionCage.setAnimal1(new Lion());
 			lionCage.setAnimal2(new Lion());
+	
+			Monkey monkey1 =new Monkey ();
+			Monkey monkey2 =new Monkey ();
+			Cage.isCompatible(monkey1,monkey2);
 			
 	}
 	

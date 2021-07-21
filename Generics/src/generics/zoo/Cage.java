@@ -26,7 +26,7 @@ public class Cage<E extends Animal & Eats & Runs> {
 		this.animal2 = animal2;
 	}
 	
-	public boolean isCompatible() {
+	public static <E extends Animal & Eats & Runs> boolean isCompatible(E animal1, E animal2) {
 		return animal1.getType().equals(animal2.getType());
 	}
 	
