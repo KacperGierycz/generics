@@ -1,5 +1,7 @@
 package generics.zoo;
 
-public class Lion {
+import generics.Animal;
+
+public class Lion extends Animal {
 
 }
