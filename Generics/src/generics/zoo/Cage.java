@@ -1,6 +1,6 @@
 package generics.zoo;
 
-public class Cage<E extends Animal & Eats> {
+public class Cage<E extends Animal & Eats & Runs> {
 
 	private E animal1;
 	private E animal2;
@@ -34,7 +34,7 @@ public class Cage<E extends Animal & Eats> {
 	public void feedAnimal() {
 		animal1.eat();
 		animal2.eat();
-
+		
 	}
 	
 }
