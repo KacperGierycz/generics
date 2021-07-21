@@ -1,4 +1,4 @@
-package generics;
+package generics.zoo;
 
 public class Animal {
 	

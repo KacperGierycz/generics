@@ -1,7 +1,18 @@
 package generics.zoo;
 
-import generics.Animal;
+public class Monkey extends Animal implements Eats, Runs {
 
-public class Monkey extends Animal {
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		
+	}
+
 
 }
